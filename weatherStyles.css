@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Varela", sans-serif;
+  color: white;
+  user-select: none;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  margin: 5vh auto;
+  width: 90%;
+  max-width: 300px;
+  height: 350px;
+  background: linear-gradient(to top right, #2980b9, #6dd5fa, #ffffff);
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.search-container {
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+.search-container input {
+  height: 30px;
+  width: 85%;
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.search-container button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  filter: brightness(95%);
+}
+
+.search-container button:active {
+  filter: brightness(105%);
+}
+
+.search-container button img {
+  height: 50%;
+  width: 50%;
+}
+
+.weather-container {
+  margin: 2vh 1vw;
+  flex-direction: column;
+}
+
+.details-container {
+  margin: 2vh 1vw;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.minor-details-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+}
+
+#main-picture {
+  height: 75px;
+  width: 75px;
+}
+
+#description {
+  font-size: 15px;
+}
+
+#error-message {
+  margin: 0 30px;
+  font-size: 12px;
+}
